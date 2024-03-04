@@ -1,0 +1,53 @@
+C:\Users\user\PycharmProjects\API_testing-master\venv\Scripts\python.exe C:/Users/user/AppData/Local/JetBrains/Toolbox/apps/PyCharm-P/ch-0/223.8617.48/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path C:\Users\user\PycharmProjects\API_testing-master\tests\test_objects.py 
+Testing started at 13:05 ...
+Launching pytest with arguments C:\Users\user\PycharmProjects\API_testing-master\tests\test_objects.py --no-header --no-summary -q in C:\Users\user\PycharmProjects\API_testing-master\tests
+
+============================= test session starts =============================
+collecting ... 
+tests/test_objects.py:None (tests/test_objects.py)
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\runner.py:341: in from_call
+    result: Optional[TResult] = func()
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\runner.py:372: in <lambda>
+    call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\python.py:531: in collect
+    self._inject_setup_module_fixture()
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\python.py:545: in _inject_setup_module_fixture
+    self.obj, ("setUpModule", "setup_module")
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\python.py:310: in obj
+    self._obj = obj = self._getobj()
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\python.py:528: in _getobj
+    return self._importtestmodule()
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\python.py:617: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\pathlib.py:565: in import_path
+    importlib.import_module(module_name)
+C:\Users\user\AppData\Local\Programs\Python\Python39\lib\importlib\__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1030: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1007: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:680: in _load_unlocked
+    ???
+C:\Users\user\PycharmProjects\API_testing-master\venv\lib\site-packages\_pytest\assertion\rewrite.py:178: in exec_module
+    exec(co, module.__dict__)
+C:\Users\user\PycharmProjects\API_testing-master\tests\test_objects.py:11: in <module>
+    from models.object_models import ObjectOutSchema, ObjectCreateOutSchema, CustomObjCreateOutSchema, \
+C:\Users\user\PycharmProjects\API_testing-master\models\object_models.py:32: in <module>
+    class ObjectCreateOutSchema(BaseModel):
+C:\Users\user\PycharmProjects\API_testing-master\models\object_models.py:34: in ObjectCreateOutSchema
+    name: str | None
+E   TypeError: unsupported operand type(s) for |: 'type' and 'NoneType'
+
+
+collected 0 items / 1 error
+
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+============================== 1 error in 0.81s ===============================
+
+Process finished with exit code 2
+
+
+
