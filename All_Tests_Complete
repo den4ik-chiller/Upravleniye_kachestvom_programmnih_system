@@ -1,0 +1,28 @@
+C:\Users\user\PycharmProjects\API_testing-master\venv\Scripts\python.exe C:/Users/user/AppData/Local/JetBrains/Toolbox/apps/PyCharm-P/ch-0/223.8617.48/plugins/python/helpers/pycharm/_jb_pytest_runner.py --path C:\Users\user\PycharmProjects\API_testing-master\tests\test_objects.py 
+Testing started at 13:16 ...
+Launching pytest with arguments C:\Users\user\PycharmProjects\API_testing-master\tests\test_objects.py --no-header --no-summary -q in C:\Users\user\PycharmProjects\API_testing-master\tests
+
+============================= test session starts =============================
+collecting ... collected 16 items
+
+test_objects.py::TestObjects::test_get_objects 
+test_objects.py::TestObjects::test_get_objects_id_param[param0] 
+test_objects.py::TestObjects::test_get_objects_id_param[param1] 
+test_objects.py::TestObjects::test_get_objects_not_exist_id 
+test_objects.py::TestObjects::test_get_objects_invalid_id 
+test_objects.py::TestObjects::test_get_object 
+test_objects.py::TestObjects::test_get_object_not_exist 
+test_objects.py::TestObjects::test_post_object_empty_body 
+test_objects.py::TestObjects::test_post_object_with_full_body 
+test_objects.py::TestObjects::test_post_object_send_invalid_json 
+test_objects.py::TestObjects::test_put_object_with_empty_body 
+test_objects.py::TestObjects::test_put_object_with_full_body 
+test_objects.py::TestObjects::test_put_object_send_invalid_json 
+test_objects.py::TestObjects::test_put_object_update_non_exist_obj 
+test_objects.py::TestObjects::test_delete_exist_object 
+test_objects.py::TestObjects::test_delete_not_exist_object 
+
+============================= 16 passed in 14.27s =============================
+
+Process finished with exit code 0
+PASSED                    [  6%]PASSED   [ 12%]PASSED   [ 18%]PASSED       [ 25%]PASSED         [ 31%]PASSED                     [ 37%]PASSED           [ 43%]PASSED         [ 50%]PASSED     [ 56%]PASSED  [ 62%]PASSED     [ 68%]PASSED      [ 75%]PASSED   [ 81%]PASSED [ 87%]PASSED            [ 93%]PASSED        [100%]
